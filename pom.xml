@@ -26,7 +26,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.version>11</maven.compiler.version>
         <!--spring-boot-->
-        <spring-boot.version>2.6.12</spring-boot.version>
+        <spring-boot.version>2.7.11</spring-boot.version>
         <spring-cloud.version>2021.0.1</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
         <!--mysql-connector-java-->
@@ -94,9 +94,11 @@
         <!--baidu-uid-generator-->
         <baidu-uid-generator.version>1.0.3.RELEASE</baidu-uid-generator.version>
         <!--redisson-spring-boot-starter-->
-        <redisson-spring-boot-starter.version>3.18.1</redisson-spring-boot-starter.version>
+        <redisson-spring-boot-starter.version>3.21.0</redisson-spring-boot-starter.version>
         <!--mockito-->
         <mockito.version>5.2.0</mockito.version>
+        <!--okhttp-->
+        <okhttp.version>4.11.0</okhttp.version>
     </properties>
 
     <!--引入依赖-->
@@ -309,28 +311,22 @@
                 <version>${mockito.version}</version>
                 <scope>test</scope>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
 
     <!--依赖远程仓库地址-->
     <repositories>
-        <!--HuaweiCloudRepository-->
+        <!--MavenRepository-->
         <repository>
-            <id>HuaweiCloud</id>
-            <name>HuaweiCloud</name>
-            <url>https://repo.huaweicloud.com/repository/maven/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <!--AliyunPublicRepository-->
-        <repository>
-            <id>AliyunPublic</id>
-            <name>AliyunPublic</name>
+            <id>AliYunPublic</id>
+            <name>AliYunPublic</name>
             <url>https://maven.aliyun.com/repository/public</url>
             <releases>
                 <enabled>true</enabled>
@@ -343,22 +339,10 @@
 
     <!--插件远程仓库地址-->
     <pluginRepositories>
-        <!--HuaweiCloudRepository-->
+        <!--MavenRepository-->
         <pluginRepository>
-            <id>HuaweiCloud</id>
-            <name>HuaweiCloud</name>
-            <url>https://repo.huaweicloud.com/repository/maven/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-        <!--AliyunPublicRepository-->
-        <pluginRepository>
-            <id>AliyunPublic</id>
-            <name>AliyunPublic</name>
+            <id>AliYunPublic</id>
+            <name>AliYunPublic</name>
             <url>https://maven.aliyun.com/repository/public</url>
             <releases>
                 <enabled>true</enabled>
