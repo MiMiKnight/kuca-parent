@@ -99,6 +99,8 @@
         <mockito.version>5.2.0</mockito.version>
         <!--okhttp-->
         <okhttp.version>4.11.0</okhttp.version>
+        <!--swagger-->
+        <swagger.version>3.0.0</swagger.version>
     </properties>
 
     <!--引入依赖-->
@@ -316,6 +318,18 @@
                 <groupId>com.squareup.okhttp3</groupId>
                 <artifactId>okhttp</artifactId>
                 <version>${okhttp.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
 
         </dependencies>
