@@ -101,6 +101,8 @@
         <okhttp.version>4.11.0</okhttp.version>
         <!--swagger-->
         <swagger.version>3.0.0</swagger.version>
+        <!--openapi-->
+        <openapi.version>1.7.0</openapi.version>
     </properties>
 
     <!--引入依赖-->
@@ -330,6 +332,12 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>${openapi.version}</version>
             </dependency>
 
         </dependencies>
