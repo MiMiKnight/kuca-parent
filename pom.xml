@@ -103,6 +103,8 @@
         <swagger.version>3.0.0</swagger.version>
         <!--openapi-->
         <openapi.version>1.7.0</openapi.version>
+        <!--jasypt-->
+        <jasypt.version>3.0.5</jasypt.version>
     </properties>
 
     <!--引入依赖-->
@@ -338,6 +340,12 @@
                 <groupId>org.springdoc</groupId>
                 <artifactId>springdoc-openapi-ui</artifactId>
                 <version>${openapi.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.github.ulisesbocchio/jasypt-spring-boot-starter -->
+            <dependency>
+                <groupId>com.github.ulisesbocchio</groupId>
+                <artifactId>jasypt-spring-boot-starter</artifactId>
+                <version>${jasypt.version}</version>
             </dependency>
 
         </dependencies>
