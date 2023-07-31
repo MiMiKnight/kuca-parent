@@ -2,7 +2,7 @@
 
 ## v1.0.0-SNAPSHOT
 ### requirement
-- openjdk v11.0.2
+- OracleJDK v1.8.0_371
 - maven  v3.8.4
 ### dependency version
 - spring-boot v2.7.11
