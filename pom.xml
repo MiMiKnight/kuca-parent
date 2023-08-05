@@ -51,6 +51,10 @@
         <commons-collections4.version>4.4</commons-collections4.version>
         <!--commons-pool2-->
         <commons-pool2.version>2.11.1</commons-pool2.version>
+        <!--commons-codec-->
+        <commons-codec.version>1.16.0</commons-codec.version>
+        <!--commons-compress-->
+        <commons-compress.version>1.23.0</commons-compress.version>
         <!--joda-time-->
         <joda-time.version>2.10.14</joda-time.version>
         <!--easyexcel-->
@@ -105,6 +109,8 @@
         <openapi.version>1.7.0</openapi.version>
         <!--jasypt-->
         <jasypt.version>3.0.5</jasypt.version>
+        <!--minio-->
+        <minio.version>8.4.3</minio.version>
     </properties>
 
     <!--引入依赖-->
@@ -212,6 +218,18 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-collections4</artifactId>
                 <version>${commons-collections4.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${commons-compress.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
             <dependency>
@@ -351,7 +369,7 @@
             <dependency>
                 <groupId>io.minio</groupId>
                 <artifactId>minio</artifactId>
-                <version>8.4.3</version>
+                <version>${minio.version}</version>
             </dependency>
 
         </dependencies>
