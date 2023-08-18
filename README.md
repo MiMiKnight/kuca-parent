@@ -2,8 +2,9 @@
 
 ## v1.0.0-SNAPSHOT
 ### requirement
-- OracleJDK v17.0.2
+- OracleJDK v1.8.0_371
 - maven  v3.8.0
 ### dependency version
-- spring-boot v3.0.9
-- spring-cloud v2022.0.4
+- spring-boot v2.6.15
+- spring-cloud v2021.0.8
+- spring-cloud-alibaba v2021.0.5.0
