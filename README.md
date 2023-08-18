@@ -1,6 +1,6 @@
-# kuca-parent-spring-boot-starter
+# kuca-parent-spring-boot-starter 
 
-## v1.0.0-SNAPSHOT
+## v0.0.1-SNAPSHOT-jdk8
 ### requirement
 - OracleJDK v1.8.0_371
 - maven  v3.8.0

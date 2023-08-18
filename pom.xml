@@ -7,7 +7,7 @@
     <!--本工程-->
     <groupId>com.github.mimiknight.kuca</groupId>
     <artifactId>kuca-parent-spring-boot-starter</artifactId>
-    <version>jdk8-0.0.1-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT-jdk8</version>
     <packaging>pom</packaging>
     <name>kuca-parent-spring-boot-starter</name>
     <description>kuca-parent-spring-boot-starter</description>
@@ -16,7 +16,7 @@
         <connection>https://github.com/MiMiKnight/kuca-parent-spring-boot-starter/tree/dev_jdk8</connection>
         <developerConnection>https://github.com/MiMiKnight</developerConnection>
         <url>https://github.com/MiMiKnight/kuca-parent-spring-boot-starter</url>
-        <tag>jdk8-0.0.1-SNAPSHOT</tag>
+        <tag>0.0.1-SNAPSHOT-jdk8</tag>
     </scm>
 
     <!--版本号-->
