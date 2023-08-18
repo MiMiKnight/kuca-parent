@@ -45,11 +45,11 @@
         <!--HikariCP-->
         <HikariCP.version>5.0.1</HikariCP.version>
         <!--mybatis-spring-boot-starter.version-->
-        <mybatis-spring-boot-starter.version>3.0.2</mybatis-spring-boot-starter.version>
+        <mybatis-spring-boot-starter.version>2.3.1</mybatis-spring-boot-starter.version>
         <!--mybatis-plus-boot-starter-->
-        <mybatis-plus-boot-starter.version>3.5.2</mybatis-plus-boot-starter.version>
+        <mybatis-plus-boot-starter.version>3.5.0</mybatis-plus-boot-starter.version>
         <!--mybatis-plus-generator-->
-        <mybatis-plus-generator.version>3.5.2</mybatis-plus-generator.version>
+        <mybatis-plus-generator.version>3.5.0</mybatis-plus-generator.version>
         <!--pagehelper-spring-boot-starter-->
         <pagehelper-spring-boot-starter.version>1.4.5</pagehelper-spring-boot-starter.version>
         <!--lombok-->
