@@ -40,8 +40,8 @@
         <mysql-connector-java.version>8.0.33</mysql-connector-java.version>
         <!--mariadb-java-client-->
         <mariadb-java-client.version>3.1.4</mariadb-java-client.version>
-        <!--druid-->
-        <druid.version>1.2.18</druid.version>
+        <!--druid-spring-boot-starter-->
+        <druid-spring-boot-starter.version>1.2.18</druid-spring-boot-starter.version>
         <!--HikariCP-->
         <HikariCP.version>5.0.1</HikariCP.version>
         <!--mybatis-spring-boot-starter.version-->
@@ -174,11 +174,11 @@
                 <version>${mariadb-java-client.version}</version>
                 <scope>runtime</scope>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+            <!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
             <dependency>
                 <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>${druid.version}</version>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid-spring-boot-starter.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
             <dependency>
