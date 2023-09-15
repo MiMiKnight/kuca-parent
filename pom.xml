@@ -7,7 +7,7 @@
     <!--本工程-->
     <groupId>com.github.mimiknight.kuca</groupId>
     <artifactId>kuca-parent-spring-boot-starter</artifactId>
-    <version>0.0.1-SNAPSHOT-jdk8</version>
+    <version>jdk8-2023.9.1</version>
     <packaging>pom</packaging>
     <name>kuca-parent-spring-boot-starter</name>
     <description>kuca-parent-spring-boot-starter</description>
@@ -16,17 +16,21 @@
         <connection>https://github.com/MiMiKnight/kuca-parent-spring-boot-starter/tree/dev_jdk8</connection>
         <developerConnection>https://github.com/MiMiKnight</developerConnection>
         <url>https://github.com/MiMiKnight/kuca-parent-spring-boot-starter</url>
-        <tag>0.0.1-SNAPSHOT-jdk8</tag>
+        <tag>jdk8-2023.9.1</tag>
     </scm>
 
     <!--版本号-->
     <properties>
         <!--项目编码-->
         <project.encoding>UTF-8</project.encoding>
+        <!--JDK 最低运行版本-->
+        <jdk.min.version>1.8.0-202</jdk.min.version>
+        <!--JDK 最高运行版本-->
+        <jdk.max.version>1.8.0-202</jdk.max.version>
         <!--Maven 最低运行版本-->
-        <maven.version>3.8.0</maven.version>
-        <!--OracleJDK 最低运行版本-->
-        <jdk.version>1.8.0_371</jdk.version>
+        <maven.min.version>3.9.0</maven.min.version>
+        <!--Maven 最高运行版本-->
+        <maven.max.version>3.9.4</maven.max.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>8</maven.compiler.source>
